@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MenuItem>
+@{
+    ViewData["Title"] = "Menu";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>Menu</h3>
+    <a asp-action="Create" class="btn btn-outline-primary"><i data-feather="plus"></i> Add Item</a>
+</div>
+
+<div class="row g-3">
+    <div class="col-12">
+        <input id="menuSearch" class="form-control form-control-sm searchable-input mb-3" placeholder="Search menu items..." />
+    </div>
+
+    @foreach(var item in Model)
+    {
+        <div class="col-12 col-sm-6 col-md-4 searchable">
+            <div class="card menu-card">
+                <img class="menu-img" src="@(item.IsAvailable ? (item.ItemId % 2 == 0 ? "/images/sample-food-1.jpg" : "/images/sample-food-2.jpg") : "/images/unavailable.jpg")" alt="@item.Name" />
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h5 class="card-title mb-0">@item.Name</h5>
+                        <small class="text-muted">@String.Format("{0:C}", item.Price)</small>
+                    </div>
+                    <p class="card-text small text-muted">@item.Description</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                             @* <span class="badge @(item.IsAvailable ? "bg-success" : "bg-secondary")">@ (item.IsAvailable ? "Available" : "Unavailable")</span> *@
+                        </div>
+                        <div class="action-btns">
+                            <a asp-action="Edit" asp-route-id="@item.ItemId" class="btn btn-sm btn-outline-secondary">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.ItemId" class="btn btn-sm btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+<script>
+    // local search for menu view
+    document.querySelector('#menuSearch')?.addEventListener('input', function(e){
+        const q = e.target.value.toLowerCase();
+        document.querySelectorAll('.searchable').forEach(card => {
+            const text = (card.innerText || card.textContent).toLowerCase();
+            card.style.display = text.indexOf(q) > -1 ? '' : 'none';
+        });
+    });
+</script>
+}

@@ -1,0 +1,561 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\controllers\\tablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\table\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\table\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\table\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\table\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\table\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\table\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\table\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\table\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\models\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\models\\enum\\tablestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\enum\\tablestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\services\\implementation\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\implementation\\orderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\services\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\services\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\services\\implementation\\menuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\implementation\\menuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\services\\implementation\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\implementation\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\services\\interfaces\\itableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\interfaces\\itableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\services\\interfaces\\imenuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\interfaces\\imenuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\repositories\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\repositories\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\models\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\models\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\models\\entities\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\entities\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\100days-challange-c-\\webapplication1\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Table\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Table\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Table\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Table\\Delete.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:32:28.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Table\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Table\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Table\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Table\\Edit.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:32:15.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TableController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Controllers\\TableController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TableController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Controllers\\TableController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\TableController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T22:00:49.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Controllers\\OrderItemController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\OrderItemController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Controllers\\OrderItemController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\OrderItemController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T22:02:49.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T22:02:03.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:11:15.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:29:44.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:20:30.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Table\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Table\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Table\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Table\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:13:55.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Table\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Table\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Table\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Table\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:18:55.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Menu\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Menu\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Menu\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Menu\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:11:47.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Enum\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Enum\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Enum\\OrderStatus.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Enum\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:05:12.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:09:45.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-21T22:10:56.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAgwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-21T22:10:42.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:10:08.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TableStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Enum\\TableStatus.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Enum\\TableStatus.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Enum\\TableStatus.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Enum\\TableStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:05:33.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T22:09:56.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Implementation\\OrderItemService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Implementation\\OrderItemService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Implementation\\OrderItemService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Implementation\\OrderItemService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:58:59.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Implementation\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Implementation\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:55:44.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Implementation\\TableService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Implementation\\TableService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Implementation\\TableService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Implementation\\TableService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:38:06.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ITableService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Interfaces\\ITableService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\ITableService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Interfaces\\ITableService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\ITableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:30:30.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MenuItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Implementation\\MenuItemService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Implementation\\MenuItemService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Implementation\\MenuItemService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Implementation\\MenuItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:25:13.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Interfaces\\IOrderItemService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\IOrderItemService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Interfaces\\IOrderItemService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\IOrderItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:36:28.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:37:08.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:23:33.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IMenuItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:25:52.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Repositories\\Implementation\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\Implementation\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Repositories\\Implementation\\GenericRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\Implementation\\GenericRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T21:24:04.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Entities\\Table.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\Table.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Entities\\Table.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\Table.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:03:45.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:03:44.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Entities\\Order.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\Order.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:03:43.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Entities\\MenuItem.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\Models\\Entities\\MenuItem.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\MenuItem.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:03:42.348Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

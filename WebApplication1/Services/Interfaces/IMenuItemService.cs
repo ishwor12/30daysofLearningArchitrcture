@@ -1,0 +1,13 @@
+﻿using ResturanrtManagement.Models;
+
+namespace ResturanrtManagement.Services.Interfaces
+{
+    public interface IMenuItemService
+    {
+        Task<IEnumerable<MenuItem>> GetAllAsync();
+        Task<MenuItem?> GetByIdAsync(int id);
+        Task CreateAsync(MenuItem item);
+        Task UpdateAsync(MenuItem item);
+        Task DeleteAsync(int id);
+    }
+}
