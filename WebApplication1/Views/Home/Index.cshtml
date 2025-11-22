@@ -2,7 +2,283 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model ResturanrtManagement.Models.Entities.DashboardModel
+@using ResturanrtManagement.Models.Enum
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid">
+    <!-- TOP: KPI CARDS -->
+    <div class="row g-3 mb-4">
+        <div class="col-12 col-md-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <small class="text-muted">Total Orders (recent)</small>
+                    <div class="d-flex align-items-center justify-content-between mt-2">
+                        <h3 class="mb-0">@Model.TotalOrders</h3>
+                        <i data-feather="shopping-cart" class="text-muted"></i>
+                    </div>
+                    <div class="kicker mt-2">Revenue (recent): <strong>@String.Format("{0:C}", Model.TotalRevenue)</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <small class="text-muted">Free Tables</small>
+                    <div class="d-flex align-items-center justify-content-between mt-2">
+                        <h3 class="mb-0">@Model.FreeTables</h3>
+                        <i data-feather="coffee" class="text-muted"></i>
+                    </div>
+                    <div class="kicker mt-2">Ready for seating</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <small class="text-muted">Seated</small>
+                    <div class="d-flex align-items-center justify-content-between mt-2">
+                        <h3 class="mb-0">@Model.SeatedTables</h3>
+                        <i data-feather="users" class="text-muted"></i>
+                    </div>
+                    <div class="kicker mt-2">Currently dining</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <small class="text-muted">Reserved</small>
+                    <div class="d-flex align-items-center justify-content-between mt-2">
+                        <h3 class="mb-0">@Model.ReservedTables</h3>
+                        <i data-feather="calendar" class="text-muted"></i>
+                    </div>
+                    <div class="kicker mt-2">Reservations</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MIDDLE: Table overview + Menu preview -->
+    <div class="row g-4 mb-4">
+        <!-- Table grid -->
+        <div class="col-12 col-lg-5">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Tables Overview</h5>
+                    <a asp-controller="Table" asp-action="Index" class="btn btn-sm btn-outline-primary">Manage Tables</a>
+                </div>
+                <div class="card-body">
+                    <div class="table-grid">
+                        @foreach (var t in Model.Tables)
+                        {
+                            var statusClass = t.Status == TableStatus.Free ? "status-free" :
+                            t.Status == TableStatus.Seated ? "status-seated" :
+                            t.Status == TableStatus.Reserved ? "status-reserved" : "status-needsclean";
+
+                            <div class="table-card">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <h5 class="mb-0">Table @t.TableNumber</h5>
+                                        <small class="kicker">Capacity: @t.MaxCapacity</small>
+                                    </div>
+                                    <span class="badge @statusClass order-status-badge">@t.Status</span>
+                                </div>
+
+                                <div class="mt-3 d-flex justify-content-between">
+                                    <a asp-controller="Table" asp-action="Edit" asp-route-id="@t.TableId" class="btn btn-sm btn-outline-secondary">Edit</a>
+                                    <a asp-controller="Order" asp-action="Create" asp-route-tableId="@t.TableId" class="btn btn-sm btn-primary">New Order</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu preview -->
+        <div class="col-12 col-lg-7">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Menu Highlights</h5>
+                    <a asp-controller="Menu" asp-action="Index" class="btn btn-sm btn-outline-primary">View Menu</a>
+                </div>
+
+                <div class="card-body">
+                    <div class="row g-3">
+                        @foreach (var item in Model.MenuItems.Take(6))
+                        {
+                            <div class="col-6 col-sm-4">
+                                <div class="card menu-card">
+                                    <img class="menu-img" src="@(item.ItemId % 2 == 0 ? "/images/sample-food-1.jpg" : "/images/sample-food-2.jpg")" alt="@item.Name" />
+                                    <div class="card-body p-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="mb-0">@item.Name</h6>
+                                            <small class="text-muted">@String.Format("{0:C}", item.Price)</small>
+                                        </div>
+                                        <p class="small text-muted mb-0">@item.Description?.Substring(0, Math.Min(60, (item.Description ?? "").Length))</p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM: Order Flow -->
+    <div class="row g-4">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Order Flow (Recent)</h5>
+                    <a asp-controller="Order" asp-action="Index" class="btn btn-sm btn-outline-primary">Manage Orders</a>
+                </div>
+                <div class="card-body">
+                    <div class="row gx-3">
+                        <div class="col-12">
+                            <div class="d-flex gap-3 flex-wrap">
+                                <!-- lanes -->
+                                <div class="flow-lane p-2" style="min-width:220px;">
+                                    <h6 class="kicker">Pending</h6>
+                                    <div>
+                                        @foreach (var o in Model.RecentOrders.Where(x => x.Status == OrderStatus.Pending))
+                                        {
+                                            <div class="card mb-2 p-2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <strong>#@o.OrderId</strong>
+                                                        <div class="small text-muted">@o.DateTimePlaced.ToLocalTime().ToString("g")</div>
+                                                        <div class="small">Table: @o.Table?.TableNumber</div>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <div class="small text-muted">@String.Format("{0:C}", o.TotalAmount)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+
+                                <div class="flow-lane p-2" style="min-width:220px;">
+                                    <h6 class="kicker">In Progress</h6>
+                                    <div>
+                                        @foreach (var o in Model.RecentOrders.Where(x => x.Status == OrderStatus.InProgress))
+                                        {
+                                            <div class="card mb-2 p-2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <strong>#@o.OrderId</strong>
+                                                        <div class="small text-muted">@o.DateTimePlaced.ToLocalTime().ToString("g")</div>
+                                                        <div class="small">Table: @o.Table?.TableNumber</div>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <div class="small text-muted">@String.Format("{0:C}", o.TotalAmount)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+
+                                <div class="flow-lane p-2" style="min-width:220px;">
+                                    <h6 class="kicker">Ready / Served</h6>
+                                    <div>
+                                        @foreach (var o in Model.RecentOrders.Where(x => x.Status == OrderStatus.ReadyForPickup || x.Status == OrderStatus.Delivered || x.Status == OrderStatus.Paid))
+                                        {
+                                            <div class="card mb-2 p-2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <strong>#@o.OrderId</strong>
+                                                        <div class="small text-muted">@o.DateTimePlaced.ToLocalTime().ToString("g")</div>
+                                                        <div class="small">Table: @o.Table?.TableNumber</div>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <div class="small text-muted">@String.Format("{0:C}", o.TotalAmount)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+
+                                <div class="flow-lane p-2" style="min-width:220px;">
+                                    <h6 class="kicker">Canceled</h6>
+                                    <div>
+                                        @foreach (var o in Model.RecentOrders.Where(x => x.Status == OrderStatus.Canceled))
+                                        {
+                                            <div class="card mb-2 p-2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <strong>#@o.OrderId</strong>
+                                                        <div class="small text-muted">@o.DateTimePlaced.ToLocalTime().ToString("g")</div>
+                                                        <div class="small">Table: @o.Table?.TableNumber</div>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <div class="small text-muted">@String.Format("{0:C}", o.TotalAmount)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+
+                            </div> <!-- lanes container -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Corner flower accent -->
+    <img src="/mnt/data/d0a8c046-f316-4956-a49c-0cda3b6a0f62.png" alt="flower" class="dashboard-flower" />
 </div>
+
+@section Styles {
+    <style>
+        .table-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 14px;
+        }
+
+        .table-card {
+            padding: 12px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 6px 18px rgba(17,34,51,0.04);
+            text-align: left;
+        }
+
+        .menu-img {
+            height: 110px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .flow-lane {
+            background: rgba(17,34,51,0.02);
+            border-radius: 8px;
+            min-height: 120px;
+        }
+
+        .dashboard-flower {
+            position: fixed;
+            right: 16px;
+            bottom: 16px;
+            width: 96px;
+            opacity: 0.12;
+            filter: grayscale(10%);
+            pointer-events: none;
+        }
+    </style>
+}
+

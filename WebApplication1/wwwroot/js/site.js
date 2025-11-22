@@ -1,4 +1,24 @@
-﻿document.addEventListener('DOMContentLoaded', function () {
+﻿
+// small UI enhancements for dashboard
+document.addEventListener('DOMContentLoaded', function () {
+    // animate KPI numbers (simple)
+    document.querySelectorAll('.card h3').forEach(h => {
+        if (!h.dataset.animated) {
+            h.dataset.animated = "1";
+            const val = parseInt(h.innerText) || 0;
+            let start = 0;
+            const dur = 600;
+            const step = Math.max(1, Math.round(val / (dur / 16)));
+            const timer = setInterval(() => {
+                start += step;
+                if (start >= val) { h.innerText = val; clearInterval(timer); }
+                else h.innerText = start;
+            }, 16);
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
     // sidebar toggle
     const sidebarCollapse = document.getElementById('sidebarCollapse');
     const sidebar = document.getElementById('sidebar');

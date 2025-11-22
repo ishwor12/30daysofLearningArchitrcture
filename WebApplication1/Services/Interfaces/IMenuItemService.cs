@@ -8,6 +8,7 @@ namespace ResturanrtManagement.Services.Interfaces
         Task<MenuItem?> GetByIdAsync(int id);
         Task CreateAsync(MenuItem item);
         Task UpdateAsync(MenuItem item);
+        Task UpdatePriceAsync(int id, decimal newPrice);
         Task DeleteAsync(int id);
     }
 }

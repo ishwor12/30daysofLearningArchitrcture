@@ -166,3 +166,14 @@ body {
             transform: translateX(0);
         }
 }
+.flow-lane .card {
+    border-radius: 8px;
+}
+
+.dashboard-flower {
+    transition: transform .3s ease;
+}
+
+    .dashboard-flower:hover {
+        transform: scale(1.02);
+    }

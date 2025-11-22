@@ -15,16 +15,14 @@ namespace ResturanrtManagement.Models
         [MaxLength(500)]
         public string Description { get; set; }
 
-        [Column(TypeName = "decimal(18, 2)")] // Ensure precise currency storage
+        [Column(TypeName = "decimal(18, 2)")] 
         public decimal Price { get; set; }
 
         [Required]
         [MaxLength(50)]
-        public string Category { get; set; } // e.g., Appetizer, Main Course, Dessert
+        public string Category { get; set; } 
 
         public bool IsAvailable { get; set; } = true;
-
-        // Navigation Property: One-to-Many relationship with OrderItem
         public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
     }
 }

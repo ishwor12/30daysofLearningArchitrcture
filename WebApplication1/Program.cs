@@ -1,10 +1,11 @@
 // --- 1. BUILDER SETUP ---
 using Microsoft.EntityFrameworkCore;
 using ResturanrtManagement.ApplicationDbContext;
-using ResturanrtManagement.Interface;
 using ResturanrtManagement.Repositories.Implementation;
 using ResturanrtManagement.Repositories.Interfaces;
 using ResturanrtManagement.Services.Implementation;
+using ResturanrtManagement.Services.Interfaces;
+
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
@@ -23,7 +24,7 @@ services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 // Register the specific Service Implementations (BLL/Business Logic Layer)
 services.AddScoped<IMenuItemService, MenuItemService>();
-// Add other services here
+services.AddScoped<IOrderItemService, OrderItemService>();
 
 // --- 4. MVC & OTHER SERVICES ---
 services.AddControllersWithViews();

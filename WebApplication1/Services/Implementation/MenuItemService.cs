@@ -1,13 +1,14 @@
-﻿using ResturanrtManagement.Interface;
+﻿
 using ResturanrtManagement.Models;
 using ResturanrtManagement.Repositories.Interfaces;
+using ResturanrtManagement.Services.Interfaces;
 
 namespace ResturanrtManagement.Services.Implementation
 {
-   
-        // The implementation of the business logic for Menu Items
-        public class MenuItemService : IMenuItemService
-        {
+
+    // The implementation of the business logic for Menu Items
+    public class MenuItemService : IMenuItemService
+    {
             // Inject the generic repository specifically for MenuItem
             private readonly IGenericRepository<MenuItem> _menuItemRepository;
 
@@ -20,7 +21,7 @@ namespace ResturanrtManagement.Services.Implementation
             // --- READ Operations ---
 
             // BLL: Gets all items 
-            public async Task<IEnumerable<MenuItem>> GetAllMenuItemsAsync()
+            public async Task<IEnumerable<MenuItem>> GetAllAsync()
             {
                 return await _menuItemRepository.GetAllAsync();
             }
@@ -46,7 +47,7 @@ namespace ResturanrtManagement.Services.Implementation
 
             // --- CREATE Operation ---
 
-            public async Task CreateMenuItemAsync(MenuItem item)
+            public async Task CreateAsync(MenuItem item)
             {
                 // 1. Add the entity
                 await _menuItemRepository.AddAsync(item);
@@ -57,7 +58,7 @@ namespace ResturanrtManagement.Services.Implementation
             // --- UPDATE Operations ---
 
             // General update for the controller's Edit POST action
-            public async Task UpdateMenuItemAsync(MenuItem item)
+            public async Task UpdateAsync(MenuItem item)
             {
                 // Mark the entity as modified
                 _menuItemRepository.Update(item);
@@ -79,7 +80,7 @@ namespace ResturanrtManagement.Services.Implementation
 
             // --- DELETE Operation ---
 
-            public async Task DeleteMenuItemAsync(int itemId)
+            public async Task DeleteAsync(int itemId)
             {
                 var itemToDelete = await _menuItemRepository.GetByIdAsync(itemId);
                 if (itemToDelete != null)
@@ -88,5 +89,7 @@ namespace ResturanrtManagement.Services.Implementation
                     await _menuItemRepository.SaveChangesAsync();
                 }
             }
-        }
+
+       
+    }
     }

@@ -4729,11 +4729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\ResturanrtManagement.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\ResturanrtManagement.csproj",
       "projectName": "ResturanrtManagement",
-      "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\ResturanrtManagement.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\ResturanrtManagement.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\100Days-Challange-c-\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

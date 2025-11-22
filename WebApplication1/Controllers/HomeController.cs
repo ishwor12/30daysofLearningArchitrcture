@@ -1,32 +1,52 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models;
+using ResturanrtManagement.Models.Entities;
+using ResturanrtManagement.Services.Interfaces;
+using ResturanrtManagement.Models.Enum;
+
+
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+       
+        private readonly IMenuItemService _menuService;
+        private readonly ITableService _tableService;
+        private readonly IOrderService _orderService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            IMenuItemService menuService,
+            ITableService tableService,
+            IOrderService orderService)
         {
-            _logger = logger;
+            _menuService = menuService;
+            _tableService = tableService;
+            _orderService = orderService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
+            var menu = (await _menuService.GetAllAsync()).ToList();
+            var tables = (await _tableService.GetAllAsync()).ToList();
+            var orders = (await _orderService.GetAllAsync()).OrderByDescending(o => o.DateTimePlaced).Take(10).ToList();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+            var vm = new DashboardModel
+            {
+                MenuItems = menu,
+                Tables = tables,
+                RecentOrders = orders,
+                TotalOrders = orders.Count,
+                TotalRevenue = orders.Sum(o => o.TotalAmount),
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+                FreeTables = tables.Count(t => t.Status == TableStatus.Free),
+                SeatedTables = tables.Count(t => t.Status == TableStatus.Seated),
+                ReservedTables = tables.Count(t => t.Status == TableStatus.Reserved),
+                NeedsCleaningTables = tables.Count(t => t.Status == TableStatus.NeedsCleaning)
+            };
+
+            return View(vm);
         }
     }
 }
+
