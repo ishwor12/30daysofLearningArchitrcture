@@ -2,7 +2,8 @@
 
 namespace ResturanrtManagement.Services.Interfaces
 {
-    public interface IOrderService
+    public interface 
+        IOrderService
     {
         Task<IEnumerable<Order>> GetAllAsync();
         Task<Order?> GetByIdAsync(int id);

@@ -4,47 +4,43 @@
     ViewData["Title"] = "Orders";
 }
 
-<div class="d-flex justify-content-between align-items-center mb-3">
-    <h3>Orders</h3>
-    <a asp-action="Create" class="btn btn-primary"><i data-feather="plus"></i> Place Order</a>
-</div>
+<link rel="stylesheet" href="~/css/orders.css" />
 
-<div class="card">
-    <div class="card-body">
-        <table class="table table-hover">
-            <thead class="table-light">
-                <tr>
-                    <th>#</th>
-                    <th>Placed</th>
-                    <th>Table</th>
-                    <th>Total</th>
-                    <th>Status</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var o in Model)
-                {
-                    var statusClass = o.Status == OrderStatus.Pending ? "bg-secondary" :
-                    o.Status == OrderStatus.Confirmed ? "bg-info" :
-                    o.Status == OrderStatus.InProgress ? "bg-warning" :
-                    o.Status == OrderStatus.ReadyForPickup ? "bg-primary" :
-                    o.Status == OrderStatus.Delivered ? "bg-success" :
-                    o.Status == OrderStatus.Paid ? "bg-dark" :
-                    "bg-danger";
-
-                    <tr>
-                        <td>@o.OrderId</td>
-                        <td>@o.DateTimePlaced.ToLocalTime().ToString("g")</td>
-                        <td>@o.Table?.TableNumber</td>
-                        <td>@String.Format("{0:C}", o.TotalAmount)</td>
-                        <td>
-                            <a asp-action="Details" asp-route-id="@o.OrderId" class="btn btn-sm btn-outline-secondary">Details</a>
-                            <a asp-action="Edit" asp-route-id="@o.OrderId" class="btn btn-sm btn-primary">Edit</a>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Orders</h2>
+        <a asp-action="Create" class="btn btn-primary">+ New Order</a>
     </div>
+
+    <table class="table table-hover">
+        <thead class="table-light">
+            <tr>
+                <th>#</th>
+                <th>Table</th>
+                <th>Placed</th>
+                <th>Items</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th style="width:160px">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var o in Model)
+            {
+                <tr>
+                    <td>@o.OrderId</td>
+                    <td>@o.Table?.TableNumber</td>
+                    <td>@o.DateTimePlaced.ToLocalTime().ToString("g")</td>
+                    <td>@(o.OrderItems?.Count ?? 0)</td>
+                    <td>@String.Format("{0:C}", o.TotalAmount)</td>
+                    <td>@o.Status</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@o.OrderId" class="btn btn-sm btn-outline-secondary me-1">Edit</a>
+                        <a asp-action="Details" asp-route-id="@o.OrderId" class="btn btn-sm btn-outline-info me-1">Details</a>
+                        <a asp-action="Delete" asp-route-id="@o.OrderId" class="btn btn-sm btn-outline-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

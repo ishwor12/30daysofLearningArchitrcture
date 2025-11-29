@@ -1,5 +1,4 @@
-﻿@model ResturanrtManagement.Models.Order
-@inject ResturanrtManagement.Services.Interfaces.IMenuItemService MenuService
+﻿@model Order
 
 @{
     ViewData["Title"] = "Create Order";
@@ -8,62 +7,129 @@
 <h3>Create Order</h3>
 
 <form asp-action="Create" method="post">
-    <div class="row g-3">
-        <div class="col-md-4">
-            <label class="form-label">Table</label>
-            <select asp-for="TableId" class="form-select">
-                <option value="">Select a table</option>
-                @* In controller fill ViewBag.Tables or use a view model. *@
-            </select>
-        </div>
 
-        <div class="col-md-4">
-            <label class="form-label">Waiter(UserId)</label>
-            <input asp-for="UserId" class="form-control" placeholder="User id" />
-        </div>
-
-        <div class="col-12 mt-3">
-            <h5>Order Items</h5>
-            <div id="orderItemsContainer"></div>
-
-            <template id="orderItemTemplate">
-                <div class="order-item-row row g-2 align-items-end mb-2">
-                    <div class="col-md-6">
-                        <label class="form-label">Menu Item</label>
-                        <select name="OrderItems[][ItemId]" class="form-select">
-                            <option value="">Select item</option>
-                            @* server side: render options into template via JS or pre-render a JSON list and populate select via JS *@
-                        </select>
-                    </div>
-                    <div class="col-md-2">
-                        <label class="form-label">Qty</label>
-                        <input type="number" name="OrderItems[][Quantity]" class="form-control" value="1" min="1" />
-                    </div>
-                    <div class="col-md-3">
-                        <label class="form-label">Notes</label>
-                        <input type="text" name="OrderItems[][Notes]" class="form-control" />
-                    </div>
-                    <div class="col-md-1">
-                        <button type="button" class="btn btn-danger remove-order-item">X</button>
-                    </div>
-                </div>
-            </template>
-
-            <div class="mt-2">
-                <button type="button" class="btn btn-outline-primary add-order-item"><i data-feather="plus"></i> Add Item</button>
-            </div>
-        </div>
-
-        <div class="col-12">
-            <button class="btn btn-success">Place Order</button>
-            <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
-        </div>
+    <div class="mb-3">
+        <label class="form-label">Select Table</label>
+        <select asp-for="TableId" class="form-select" asp-items="ViewBag.Tables"></select>
+        <span asp-validation-for="TableId" class="text-danger"></span>
     </div>
+
+    <hr />
+
+    <h4>Order Items</h4>
+
+    <table class="table table-bordered" id="orderItemsTable">
+        <thead>
+            <tr>
+                <th>Menu Item</th>
+                <th>Qty</th>
+                <th>Notes</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.OrderItems.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <select name="OrderItems[@i].ItemId" class="form-select">
+                            <option value="">-- Select Item --</option>
+                            @foreach (var item in ViewBag.MenuItems)
+                            {
+                                <option value="@item.ItemId">@item.Name (@item.Price)</option>
+                            }
+                        </select>
+                    </td>
+
+                    <td>
+                        <input type="number" class="form-control"
+                               name="OrderItems[@i].Quantity" min="1" value="1" />
+                    </td>
+
+                    <td>
+                        <input type="text" class="form-control"
+                               name="OrderItems[@i].Notes" />
+                    </td>
+
+                    <td>
+                        <button type="button" class="btn btn-danger btn-sm remove-row">X</button>
+                    </td>
+
+                    <td>
+                        <!-- FIXED: changed from id="addRow" to class="add-row" -->
+                        <button type="button" class="btn btn-secondary btn-sm add-row">+</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    
+
+    <br /><br />
+
+    <button type="submit" class="btn btn-primary">Save Order</button>
 </form>
 
-@section Scripts {
-    <script>
-        // optional: populate menu items into selects via server-rendered JSON
-        // Example: const menuItems = @Html.Raw(Json.Serialize(ViewBag.MenuItems));
-    </script>
+
+
+    @section Scripts {
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    let rowIndex = @Model.OrderItems.Count;
+
+    // Add row from ANY + button
+    $(document).on("click", ".add-row", function () {
+
+        let newRow = `
+        <tr>
+            <td>
+                <select name="OrderItems[${rowIndex}].ItemId" class="form-select">
+                    <option value="">-- Select Item --</option>
+                    @foreach (var item in ViewBag.MenuItems)
+                    {
+                        <option value="@item.ItemId">@item.Name (@item.Price)</option>
+                    }
+                </select>
+            </td>
+
+            <td>
+                <input type="number" class="form-control"
+                       name="OrderItems[${rowIndex}].Quantity" min="1" value="1" />
+            </td>
+
+            <td>
+                <input type="text" class="form-control"
+                       name="OrderItems[${rowIndex}].Notes" />
+            </td>
+
+            <td>
+                <button type="button" class="btn btn-danger btn-sm remove-row">X</button>
+            </td>
+
+            <td>
+                <button type="button" class="btn btn-secondary btn-sm add-row">+</button>
+            </td>
+        </tr>`;
+
+        $("#orderItemsTable tbody").append(newRow);
+
+        rowIndex++;
+    });
+
+    
+            $(document).on("click", ".remove-row", function () {
+            // Count current rows
+            let rowCount = $("#orderItemsTable tbody tr").length;
+
+            if (rowCount > 1) {
+                $(this).closest("tr").remove();
+            } else {
+                alert("At least one order item is required.");
+            }
+        });
+</script>
 }
+
+

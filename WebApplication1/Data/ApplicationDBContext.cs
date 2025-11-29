@@ -33,23 +33,12 @@ namespace ResturanrtManagement.ApplicationDbContext
                 .HasMany(t => t.Orders) // Maps to the ICollection<Order> Orders property
                 .WithOne(o => o.Table) // The inverse navigation property on Order is 'Table'
                 .HasForeignKey(o => o.TableId)
-                // CRITICAL: Set DeleteBehavior to Restrict to prevent multiple cascade path errors.
+                
                 // This means if you delete a Table, you must manually ensure all related Orders are handled first.
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // The ambiguous HasOne(t => t.CurrentOrder) configuration has been removed 
-            // as the property no longer exists on the Table model.
-
-            // -----------------------------------------------------------------------
-            // Configure OrderItem (Many-to-Many via Order and MenuItem)
-            // -----------------------------------------------------------------------
-
-            // OrderItem <-> Order (Many-to-One)
-            modelBuilder.Entity<OrderItem>()
-                .HasOne(oi => oi.Order)
-                .WithMany(o => o.OrderItems)
-                .HasForeignKey(oi => oi.OrderId)
-                .OnDelete(DeleteBehavior.Cascade); // If Order is deleted, its OrderItems are deleted.
+          
+           
 
             // OrderItem <-> MenuItem (Many-to-One)
             modelBuilder.Entity<OrderItem>()

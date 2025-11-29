@@ -3,56 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\menu\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\menu\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\menu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\menu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\models\\entities\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\entities\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\models\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\models\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\models\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\models\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\services\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\services\\interfaces\\imenuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\interfaces\\imenuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\services\\implementation\\menuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\implementation\\menuitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\services\\interfaces\\itableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\interfaces\\itableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\services\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\interfaces\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|c:\\users\\lenovo\\documents\\github\\30daysoflearningarchitrcture\\webapplication1\\services\\implementation\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C6739B-5BBD-4F04-9932-ED52B0853DB8}|WebApplication1\\ResturanrtManagement.csproj|solutionrelative:webapplication1\\services\\implementation\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,169 +83,210 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DeleteConfirm.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\DeleteConfirm.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Menu\\DeleteConfirm.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\DeleteConfirm.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Menu\\DeleteConfirm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:06:49.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Menu\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\Delete.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Menu\\Delete.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:02:38.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IMenuItemService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
-              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAMwAkAAAANAAAAAAAAAA==",
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T06:05:16.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MenuItemService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Implementation\\MenuItemService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Services\\Implementation\\MenuItemService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Implementation\\MenuItemService.cs",
-              "RelativeToolTip": "WebApplication1\\Services\\Implementation\\MenuItemService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwFIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T05:46:06.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAArwBEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T05:13:04.194Z",
+              "WhenOpened": "2025-11-28T23:57:34.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAvwGoAAAA4AAAAAAAAAA==",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwv0sAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T04:51:08.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Menu\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\Edit.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Menu\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:51:25.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Menu\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\Details.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Menu\\Details.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAkwEEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T20:56:25.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Menu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Menu\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Menu\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAB4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T21:00:27.584Z",
+              "WhenOpened": "2025-11-24T23:19:17.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\MenuItem.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\MenuItem.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\MenuItem.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Entities\\MenuItem.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwBgAAAAwAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\Order.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\Order.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:51:54.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T23:16:14.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Repositories\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Repositories\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Repositories\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T06:08:32.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\OrderItem.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\OrderItem.cs",
               "RelativeToolTip": "WebApplication1\\Models\\Entities\\OrderItem.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:52:18.455Z",
+              "WhenOpened": "2025-11-24T23:16:15.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Enum\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Enum\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Enum\\OrderStatus.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Enum\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T05:58:06.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\Table.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\Table.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\Table.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\Table.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:16:16.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\MenuItem.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Entities\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Models\\Entities\\MenuItem.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Entities\\MenuItem.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:16:14.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwHgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T23:29:58.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IOrderItemService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\IOrderItemService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\IOrderItemService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\IOrderItemService.cs",
-              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\IOrderItemService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T05:22:01.951Z"
+              "WhenOpened": "2025-11-26T21:00:24.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Order\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Order\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Order\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Order\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T05:49:44.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Order\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Order\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Order\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Order\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T05:50:18.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T04:05:02.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T10:47:45.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITableService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\ITableService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\ITableService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\ITableService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\ITableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T04:35:15.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IMenuItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Interfaces\\IMenuItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T04:35:26.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Implementation\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Implementation\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T04:35:46.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Implementation\\TableService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\Implementation\\TableService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\30daysofLearningArchitrcture\\WebApplication1\\Services\\Implementation\\TableService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\Implementation\\TableService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T21:22:22.612Z"
             }
           ]
         }

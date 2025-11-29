@@ -1,9 +1,4 @@
-/* Brand palette inspired by mikueatery:
-   Primary (soft pink): #F6C7D7
-   Accent dark slate: #112233
-   Gold accent: #D9B44A
-   Neutral light: #FAF7F8
-*/
+
 :root {
     --brand-primary: #F6C7D7;
     --brand-dark: #112233;
@@ -15,20 +10,20 @@
 /* Layout */
 body {
     background: var(--neutral);
-    color: var(--brand-dark);
+    color: #D9B44A;
     font-family: "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 #wrapper {
-    min-height: 100vh;
+    min-height: 600vh;
     display: flex;
 }
 
 /* Sidebar */
 #sidebar {
     width: 260px;
-    min-height: 100vh;
-    color: #fff;
+    min-height: 600vh;
+    color: #D9B44A;
     background: linear-gradient(180deg,var(--brand-dark), #0b2230);
 }
 

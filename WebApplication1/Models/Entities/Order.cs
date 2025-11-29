@@ -19,7 +19,7 @@ namespace ResturanrtManagement.Models
         // Foreign Key to Table (One-to-One with Table)
         public int TableId { get; set; }
         [ForeignKey("TableId")]
-        public Table Table { get; set; }
+        public Table? Table { get; set; }
 
         // Foreign Key to Waitstaff (User)
         // Assuming you will create a 'User' model later with a primary key of 'UserId'
@@ -27,7 +27,7 @@ namespace ResturanrtManagement.Models
         // public User Waitstaff { get; set; } // Uncomment when User model is available
 
         // Navigation Property: One-to-Many relationship with OrderItem
-        public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
     }
 
 }

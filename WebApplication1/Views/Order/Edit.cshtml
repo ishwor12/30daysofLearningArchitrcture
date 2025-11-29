@@ -1,0 +1,176 @@
+﻿@model Order
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+<link rel="stylesheet" href="~/css/orders.css" />
+
+<div class="container mt-4">
+    <h2>Edit Order #@Model.OrderId</h2>
+
+    <form asp-action="Edit" method="post" id="orderForm">
+        <input type="hidden" asp-for="OrderId" />
+
+        <div class="card p-3 mb-4">
+            <h4>Order Details</h4>
+            <div class="row g-3 mt-2">
+                <div class="col-md-4">
+                    <label class="form-label">Table</label>
+                    <select asp-for="TableId" class="form-select" asp-items="ViewBag.Tables"></select>
+                    <span asp-validation-for="TableId" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Order Date</label>
+                    <input type="text" class="form-control" value="@Model.DateTimePlaced.ToLocalTime().ToString("g")" disabled />
+                </div>
+
+                @* <div class="col-md-4">
+                    <label class="form-label">Status</label>
+                    <select asp-for="Status" class="form-select">
+                        @foreach (OrderStatus s in Enum.GetValues(typeof(OrderStatus)))
+{
+    <option value="@(int)s" @(Model.Status == s ? "selected" : "")>@s</option>
+}
+                    </select>
+                </div> *@
+            </div>
+        </div>
+
+        <div class="card p-3 mb-3">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h4>Order Items</h4>
+                <button type="button" id="btnAddItem" class="btn btn-primary btn-sm">Add Item</button>
+            </div>
+
+            <table class="table table-bordered" id="itemsTable">
+                <thead class="table-light">
+                    <tr>
+                        <th>Menu Item</th>
+                        <th style="width:120px">Quantity</th>
+                        <th>Notes</th>
+                        <th style="width:110px">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="orderItemsBody">
+                    @for (int i = 0; i < Model.OrderItems.Count; i++)
+                    {
+                        var it = Model.OrderItems[i];
+                        <tr data-index="@i">
+                            <td>
+                                
+                                    <select name="OrderItems[@i].ItemId" class="form-select item-select">
+                                        <option value="">-- Select Item --</option>
+                                        @foreach (var item in ViewBag.MenuItems)
+                                        {
+                                            <option value="@item.ItemId">@item.Name (@item.Price)</option>
+                                        }
+                                    </select>
+                            </td>
+                            <td>
+                                <input type="number" class="form-control qty-input" min="1" max="99" value="@it.Quantity" />
+                            </td>
+                            <td>
+                                <input type="text" class="form-control notes-input" value="@it.Notes" />
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-sm btn-warning edit-row me-1" title="Edit (inline)">Edit</button>
+                                <button type="button" class="btn btn-sm btn-danger remove-row">Remove</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-success">Save Changes</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+<!-- Hidden template row -->
+<table class="d-none">
+    <tbody id="templateRow">
+        <tr>
+            <td>
+                <select class="form-select item-select">
+                    <option value="">-- Select Item --</option>
+                    @foreach (var m in (IEnumerable<ResturanrtManagement.Models.MenuItem>)ViewBag.MenuItems)
+                    {
+                        <option value="@m.ItemId">@m.Name (@String.Format("{0:C}", m.Price))</option>
+                    }
+                </select>
+            </td>
+            <td>
+                <input type="number" class="form-control qty-input" min="1" max="99" value="1" />
+            </td>
+            <td>
+                <input type="text" class="form-control notes-input" />
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm btn-warning edit-row me-1">Edit</button>
+                <button type="button" class="btn btn-sm btn-danger remove-row">Remove</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        $(function () {
+            // current number of rows (start from count of existing items)
+            let rowIndex = $("#orderItemsBody tr").length;
+
+            // Add a new row (template clone)
+            $("#btnAddItem").on("click", function () {
+                let $template = $($("#templateRow").html());
+                appendRow($template);
+            });
+
+            // append row function (assign names using rowIndex)
+            function appendRow($row) {
+                // assign names for model binding
+                $row.find(".item-select").attr("name", `OrderItems[${rowIndex}].ItemId`);
+                $row.find(".qty-input").attr("name", `OrderItems[${rowIndex}].Quantity`);
+                $row.find(".notes-input").attr("name", `OrderItems[${rowIndex}].Notes`);
+
+                // attach to body
+                $("#orderItemsBody").append($row);
+                rowIndex++;
+            }
+
+            // Remove row
+            $("#orderItemsBody").on("click", ".remove-row", function () {
+                $(this).closest("tr").remove();
+                reindexRows();
+            });
+
+            // Optional: Toggle edit inline (here just focuses inputs)
+            $("#orderItemsBody").on("click", ".edit-row", function () {
+                let $row = $(this).closest("tr");
+                $row.find(".item-select, .qty-input, .notes-input").first().focus();
+            });
+
+            // Before submit, ensure indexes are continuous
+            $("#orderForm").on("submit", function () {
+                reindexRows();
+            });
+
+            function reindexRows() {
+                rowIndex = 0;
+                $("#orderItemsBody tr").each(function () {
+                    $(this).attr("data-index", rowIndex);
+                    $(this).find(".item-select").attr("name", `OrderItems[${rowIndex}].ItemId`);
+                    $(this).find(".qty-input").attr("name", `OrderItems[${rowIndex}].Quantity`);
+                    $(this).find(".notes-input").attr("name", `OrderItems[${rowIndex}].Notes`);
+                    rowIndex++;
+                });
+            }
+        });
+    </script>
+}

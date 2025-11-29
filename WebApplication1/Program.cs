@@ -25,7 +25,8 @@ services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 // Register the specific Service Implementations (BLL/Business Logic Layer)
 services.AddScoped<IMenuItemService, MenuItemService>();
 services.AddScoped<IOrderItemService, OrderItemService>();
-
+services.AddScoped<ITableService, TableService>();
+services.AddScoped<IOrderService, OrderService>();
 // --- 4. MVC & OTHER SERVICES ---
 services.AddControllersWithViews();
 
